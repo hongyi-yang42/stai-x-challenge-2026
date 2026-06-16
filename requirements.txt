@@ -1,0 +1,11 @@
+# Pinned versions matching the local dev environment (Python 3.14.5, macOS arm64).
+# Kaggle's runtime (Python 3.12, Linux x86_64) uses its own pinned versions;
+# see CLAUDE.md "Reproducibility notes" for the cross-platform MAE delta.
+lightgbm==4.6.0
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+
+# Optional — only needed for the dry_run_validate.py PDF report.
+# dry_run_validate.py falls back gracefully if fpdf is absent.
+fpdf2==2.8.3

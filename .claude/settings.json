@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(pip install *)",
+      "Read(data/*)",
+      "Read(*)",
+      "Write(submission.csv)",
+      "Write(report.pdf)"
+    ]
+  }
+}

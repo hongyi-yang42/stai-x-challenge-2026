@@ -2,7 +2,7 @@
 
 My entry for the [STAI-X Challenge 2026](https://www.kaggle.com/competitions/stai-x-challenge-2026), a Kaggle competition forecasting US state-level rates of suspected nonfatal drug overdose ED visits (CDC DOSE-SYS syndromic surveillance).
 
-**Result:** rank 26 / 35, private MAE 0.905, public 0.918. Submitted ~6 hours past the deadline — postmortem in [`CLAUDE.md`](./CLAUDE.md#late-submission-note).
+**Result:** rank 26 / 35, private MAE 0.905, public 0.918. Submitted ~6 hours past the deadline.
 
 ## Quickstart
 
@@ -35,7 +35,6 @@ Main ingredients:
 
 ```
 solution_portable.py    # the STAI-X model, single file, ~586 lines
-CLAUDE.md               # playbook, reproducibility notes, postmortem
 dry_run_setup.py        # fabricates regression + classification datasets
 dry_run_validate.py     # runs the domain-agnostic pipeline on them
 data/                   # competition data goes here (not committed)

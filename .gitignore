@@ -7,6 +7,9 @@ __pycache__/
 *.egg-info/
 .eggs/
 
+# Agent playbook — private, not for public repo
+CLAUDE.md
+
 # Virtual envs
 .venv/
 venv/
